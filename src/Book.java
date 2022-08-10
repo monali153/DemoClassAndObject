@@ -5,8 +5,14 @@ public class Book {
     long isbnNumber;
     String authorName;
 
+    Book() {
+        title = "Book1";
+        authorName = "author1";
+        yearOfPublishing = 2010;
+        isbnNumber = 1234567890123L;
+    }
 
-    public static void main(String[] args) {
+   /* public static void main(String[] args) {
 
         Book book = new Book();
 
@@ -25,5 +31,7 @@ public class Book {
         System.out.println("book.yearOfPublishing = " + book.yearOfPublishing);
         System.out.println("book.isbnNumber = " + book.isbnNumber);
 
-    }
+    }*/
+
+
 }
